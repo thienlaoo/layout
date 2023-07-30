@@ -1,6 +1,8 @@
 @import "utils";
-@import "fonts";
+/* @import "fonts"; */
 @import "typography";
+@import "./card/card.scss";
+@import "normalize";
 
 body {
   background: $c-gray;

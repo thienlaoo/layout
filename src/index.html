@@ -4,10 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smartphones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    >
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.scss">
     <script src="scripts/main.js" defer></script>
   </head>
   <body>
     <h1>Smartphones</h1>
+    <article class="card">
+      <img
+        src="./images/template.png"
+        alt="Apple iPhone Xs 64GB Silver"
+        class="card_image"
+      >
+      <h3 class="card_title">
+        Apple iPhone Xs 64GB Silver (iMT9G2FS/A)
+      </h3>
+      <div class="card_price">
+        <p class="card_price-new">
+        $799
+        </p>
+        <p class="card_price-old">
+        $899
+        </p>
+      </div>
+      <div class="card_divider"></div>
+      <div class="card_specs">
+        <div class="card_specs--1">
+          <p class="card_specs--description">Screen</p>
+          <p class="card_specs--value">5.8” OLED</p>
+        </div>
+        <div class="card_specs--2">
+          <p class="card_specs--description">Capacity</p>
+          <p class="card_specs--value">64 GB</p>
+        </div>
+        <div class="card_specs--3">
+          <p class="card_specs--description">RAM</p>
+          <p class="card_specs--value">4 GB</p>
+        </div>
+      </div>
+      <div class="card_buttons_container">
+        <button class="card_button">
+        Add to cart
+        </button>
+        <button class="card_like_button">
+          <img
+            class="card_like_button--image"
+            src="./images/favourites_like.svg"
+            alt="like"
+          >
+        </button>
+      </div>
+    </article>
   </body>
 </html>
