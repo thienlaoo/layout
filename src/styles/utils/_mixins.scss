@@ -7,21 +7,21 @@
 }
 
 @mixin text {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mont', sans-serif;
   font-style: normal;
 }
 
 @mixin title-text {
   @include text();
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 21px;
 }
 
 @mixin new-price-text {
   @include text();
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 140%;
 }
 
@@ -45,6 +45,6 @@
   @include text();
   text-align: center;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 21px;
 }
